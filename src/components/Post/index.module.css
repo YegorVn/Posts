@@ -1,0 +1,43 @@
+@import url("../../assets/stylesheet/variables.css");
+
+.post {
+  border-bottom: 1px solid lightgray;
+  padding: 0 0 1rem 0;
+  height: fit-content;
+}
+
+.body::first-letter {
+  text-transform: uppercase;
+}
+
+.title {
+  display: -webkit-box;
+  max-height: 1.5em;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.body {
+  display: -webkit-box;
+  max-height: 7em;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 1rem 0 0 0;
+}
+
+.post::first-letter {
+  text-transform: uppercase;
+}
+
+.body {
+  font-size: var(--text-m);
+}
+
+.link {
+  display: inline-block;
+  margin: 1rem 0 0 0;
+}

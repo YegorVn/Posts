@@ -1,0 +1,16 @@
+.posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 3rem;
+  row-gap: 3rem;
+  max-width: 85rem;
+  margin: 1.5rem auto 0 auto;
+  padding: 0 3rem;
+}
+
+@media screen and (max-width: 576px) {
+  .posts {
+    padding: 0 1rem;
+  }
+}

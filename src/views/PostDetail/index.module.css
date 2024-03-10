@@ -1,0 +1,36 @@
+@import url("../../assets/stylesheet/variables.css");
+
+.post {
+  max-width: 85rem;
+  width: 100%;
+  padding: 0 3rem;
+  margin: 5rem auto 0 auto;
+}
+
+.title {
+  margin: 5rem 0 0 0;
+}
+
+.body {
+  margin: 1.5rem 0 0 0;
+  font-size: var(--text-m);
+}
+
+.title::first-letter {
+  text-transform: uppercase;
+}
+
+.body::first-letter {
+  text-transform: uppercase;
+}
+
+.btn {
+  position: fixed;
+  bottom: 3rem;
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: var(--text-m);
+  font-weight: 400;
+  border: 1px solid black;
+}
